@@ -1,0 +1,40 @@
+.feedback {
+    margin-bottom: 52px;
+    &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        margin-top: 60px;
+        img {
+            display: block;
+            width: 169;
+            height: 169;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        margin-left: 60px;
+    }
+    &__name {
+        color: $text_color;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    &__subtitle {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__descr {
+        margin-top: 10px;
+        color: $text_color;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}
